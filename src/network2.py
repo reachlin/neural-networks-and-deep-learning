@@ -130,7 +130,7 @@ class Network(object):
             lmbda = 0.0,
             evaluation_data=None,
             monitor_evaluation_cost=False,
-            monitor_evaluation_accuracy=False,
+            monitor_evaluation_accuracy=True,
             monitor_training_cost=False,
             monitor_training_accuracy=False):
         """Train the neural network using mini-batch stochastic gradient
